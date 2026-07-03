@@ -1,49 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nampande Sibana | Portfolio</title>
-
-    <link rel="stylesheet" href="style.css">
-
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nampande Sibana | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-<header class="hero">
+  <nav class="navbar">
+    <h2 class="logo">Nampande Sibana</h2>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
 
+  <header class="hero" id="home">
     <div class="hero-text">
+      <h1>Nampande Sibana</h1>
+      <h2>Business Analyst | Data Analyst | Computer Engineer</h2>
+      <p>
+        Turning complex data into actionable business insights through analytics, 
+        visualization, and technology.
+      </p>
 
-        <h1>Nampande Sibana</h1>
-
-        <h2>Business Analyst | Data Analyst | Computer Engineer</h2>
-
-        <p>
-            Transforming complex data into clear business decisions through analytics,
-            business intelligence, and technology.
-        </p>
-
-        <div class="buttons">
-
-            <a href="#">Download Resume</a>
-
-            <a href="https://github.com/nampandesibana" target="_blank">GitHub</a>
-
-            <a href="#">LinkedIn</a>
-
-        </div>
-
+      <div class="buttons">
+       <a href="assets/Nampande-Sibana-Resume.pdf" class="btn primary" target="_blank">Resume</a>
+        <a href="https://github.com/nampandesibana" target="_blank" class="btn">GitHub</a>
+        <a href="https://www.linkedin.com/in/nampande-sibana-3038a4252" target="_blank" class="btn">LinkedIn</a>
+      </div>
     </div>
 
     <div class="hero-image">
-
-        <img src="assets/profile.jpg" alt="Nampande Sibana">
-
+      <div class="circle-bg"></div>
+      <img src="assets/profile.jpg" alt="Nampande Sibana">
     </div>
+  </header>
 
-</header>
+  <section id="about" class="section about">
+    <p class="section-label">ABOUT ME</p>
+    <h2>Turning Data into Meaningful Impact</h2>
+    <p>
+      I am a detail-oriented analyst with a strong foundation in business analytics,
+      data visualization, and process improvement. I enjoy working with data to uncover
+      insights, build dashboards, and support smarter decision-making.
+    </p>
+  </section>
+
+  <section id="skills" class="section">
+    <p class="section-label">SKILLS</p>
+    <h2>Technical Skills</h2>
+
+    <div class="skills-grid">
+      <span>SQL</span>
+      <span>Python</span>
+      <span>Power BI</span>
+      <span>Tableau</span>
+      <span>Excel</span>
+      <span>R</span>
+      <span>Machine Learning</span>
+      <span>Business Intelligence</span>
+      <span>Project Management</span>
+      <span>HTML</span>
+      <span>CSS</span>
+      <span>JavaScript</span>
+    </div>
+  </section>
+
+  <section id="projects" class="section">
+    <p class="section-label">FEATURED PROJECTS</p>
+    <h2>Projects</h2>
+
+    <div class="projects-grid">
+      <div class="card">
+        <h3>Predictive Client Retention Model</h3>
+        <p>Built a machine learning model using Logistic Regression to predict customer churn with 91% accuracy.</p>
+      </div>
+
+      <div class="card">
+        <h3>Business Intelligence Dashboard</h3>
+        <p>Designed interactive dashboards to visualize KPIs, business performance, and operational trends.</p>
+      </div>
+
+      <div class="card">
+        <h3>VentIt</h3>
+        <p>Developed an anonymous social networking platform using HTML, CSS, and JavaScript.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience" class="section">
+    <p class="section-label">EXPERIENCE</p>
+    <h2>Professional Experience</h2>
+
+    <div class="timeline">
+      <div class="timeline-item">
+        <h3>Business Analyst</h3>
+        <p><strong>WiddyUP</strong> | 2024 – Present</p>
+      </div>
+
+      <div class="timeline-item">
+        <h3>Technical Support Specialist</h3>
+        <p><strong>Grand Canyon University</strong> | 2024 – 2026</p>
+      </div>
+
+      <div class="timeline-item">
+        <h3>Academic Advising Technician</h3>
+        <p><strong>Glendale Community College</strong> | 2023 – 2024</p>
+      </div>
+
+      <div class="timeline-item">
+        <h3>Web Development Intern</h3>
+        <p><strong>Atabilisim</strong> | 2021 – 2022</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section contact">
+    <p class="section-label">CONTACT</p>
+    <h2>Let’s Connect</h2>
+    <p>Email: <a href="mailto:sibananampande@gmail.com">sibananampande@gmail.com</a></p>
+    <p>GitHub: <a href="https://github.com/nampandesibana" target="_blank">github.com/nampandesibana</a></p>
+  </section>
+
+  <footer>
+    <p>© 2026 Nampande Sibana. Built with HTML, CSS, and GitHub Pages.</p>
+  </footer>
 
 </body>
 </html>
